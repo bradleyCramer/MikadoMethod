@@ -10,6 +10,10 @@ namespace EmployeeManagement
             EmployeeManager manager = new EmployeeManager();
             manager.AddEmployee("John Doe", 30, "Finance");
             manager.AddEmployee("Jane Smith", 28, "HR");
+            manager.AddEmployee("Emily Davis", 42, "Finance");
+            manager.AddEmployee("Mark Taylor", 35, "IT");
+            manager.AddEmployee("Sarah Brown", 32, "HR");
+            manager.AddEmployee("Mike Johnson", 45, "IT");
             manager.DisplayEmployees();
         }
     }
